@@ -1,0 +1,21 @@
+ Mini Àrcade en Python
+
+El primer joc és el Pedra, Paper, Tisora contra un robot que treu jugades a l'atzar, i et deixa triar si vols jugar al primer que arribi a 3 victòries o al millor de 5 rondes. El segon joc va d'endevinar un número secret entre l'1 i el 100; el programa et dona pistes dient-te si t'has quedat curt o t'has passat fins que l'encertes i et mostra quants intents has fet.
+
+ Com executar el projecte
+
+ Descarrega tots els fitxers (`main.py`, `jocs.py` i `robot.py`) i posa'ls dins de la mateixa carpeta.
+ Obre una terminal dins d'aquesta carpeta (o des del mateix Visual Studio Code).
+ Escriu aquesta comanda per arrencar el joc:
+
+
+python main.py
+
+ 4  Configuració i  pujada a GitHub (VSCode)
+
+git init
+git add main.py jocs.py robot.py README.md
+git commit -m " Mini Arcade"
+git branch -M main
+git remote add origin https://github.com/elteuusuari/nomdelprojectegit
+git push -u origin main
